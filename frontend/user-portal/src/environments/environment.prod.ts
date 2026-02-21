@@ -1,4 +1,4 @@
 export const environment = {
   production: true,
-  apiUrl: "http://localhost:5000/api",
+  apiUrl: "https://apartment-rental-portal-r1ph.onrender.com/api"
 };
