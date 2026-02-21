@@ -1,17 +1,4 @@
 {
-  "builds": [
-    {
-      "src": "frontend/user-portal/package.json",
-      "use": "@vercel/static-build",
-      "config": {
-        "distDir": "dist/user-portal"
-      }
-    }
-  ],
-  "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "/index.html"
-    }
-  ]
+  "buildCommand": "cd frontend/user-portal && npm install && npm run build",
+  "outputDirectory": "frontend/user-portal/dist/user-portal"
 }
